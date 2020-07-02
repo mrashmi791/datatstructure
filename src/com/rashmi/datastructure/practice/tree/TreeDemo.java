@@ -1,15 +1,15 @@
 package com.rashmi.datastructure.practice.tree;
 
-class Node {
-	int data;
-	Node left;
-	Node right;
-	Node(int data) {
-		this.data = data;
-		this.left = null;
-		this.right = null;
-	}
-}
+//class Node {
+//	int data;
+//	 Node left;
+//	  Node right;
+//	Node(int data) {
+//		this.data = data;
+//		this.left = null;
+//		this.right = null;
+//	}
+//}
 
 /*
  * Tree Data Structure Demo

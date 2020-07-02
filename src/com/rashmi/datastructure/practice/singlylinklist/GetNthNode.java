@@ -65,7 +65,7 @@ public class GetNthNode {
 		addNode(6);
 		display();
 		System.out.println();
-		getNthNodeInList(4);
+		getNthNodeInList(2);
 		
 		
 	}
