@@ -1,32 +1,23 @@
 package com.rashmi.datastructure.practice.tree;
 
-class Node {
-	int data;
-	Node left;
-	Node right;
-	Node(int data) {
-		this.data = data;
-		this.left = null;
-		this.right = null;
-	}
-}
+
 
 /*
  * Tree Data Structure Demo
  */
 public class TreeDemo {
 	
-	public static Node root = null;
+	public static TreeNode root = null;
 	
 	public static void main(String[] args) {
 		
-		Node root = new Node(5);
-		root.left= new Node(3);
-		root.right = new Node(7);
-		root.left.left= new Node(13);
-		root.left.right = new Node(17);
-		root.right.left = new Node(19);
-		root.right.right = new Node(27);
+		TreeNode root = new TreeNode(5);
+		root.left= new TreeNode(3);
+		root.right = new TreeNode(7);
+		root.left.left= new TreeNode(13);
+		root.left.right = new TreeNode(17);
+		root.right.left = new TreeNode(19);
+		root.right.right = new TreeNode(27);
 		
 		traverse(root);
 //		traverse(root);
@@ -35,7 +26,7 @@ public class TreeDemo {
 		allMaximum(root,13);
 	}
 	
-	private static void traverse(Node temp) {
+	private static void traverse(TreeNode temp) {
 		if(temp == null) {
 			return;
 		}
@@ -45,7 +36,7 @@ public class TreeDemo {
 	}
 
 	
-	private static void allMaximum(Node temp,int data) {
+	private static void allMaximum(TreeNode temp,int data) {
 		if(temp == null) {
 			return;
 		}
@@ -59,7 +50,7 @@ public class TreeDemo {
 	}
 
 	
-	private static void find(Node temp,int data) {
+	private static void find(TreeNode temp,int data) {
 		if(temp == null) {
 			return;
 		}
