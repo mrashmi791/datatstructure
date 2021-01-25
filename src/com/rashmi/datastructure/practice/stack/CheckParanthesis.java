@@ -98,6 +98,7 @@ public class CheckParanthesis {
 		} else {
 			System.out.println("Invalid..");
 		}
+		sc.close();
 	}
 
 }

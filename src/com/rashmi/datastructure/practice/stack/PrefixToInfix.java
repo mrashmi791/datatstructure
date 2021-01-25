@@ -1,7 +1,5 @@
 package com.rashmi.datastructure.practice.stack;
 
-import java.util.Scanner;
-
 class SData {
 	SData next ;
 	String data ;
